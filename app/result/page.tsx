@@ -4,7 +4,7 @@ import { useSearchParams, useRouter } from 'next/navigation';
 import { Typography, Stack, Button } from '@mui/material';
 import MathRenderer from '@/components/MathRenderer';
 
-export default function ResultPage() {
+export default function ResultPageContent() {
   const params = useSearchParams();
   const router = useRouter();
 
@@ -29,12 +29,10 @@ export default function ResultPage() {
           <Typography variant="subtitle1">Question {i + 1} ({q.difficulty})</Typography>
           <MathRenderer content={q.question} />
           <Typography>
-            <strong>Your Answer:</strong>{' '}
-            <MathRenderer content={q[`option${answers[i]}`] || 'Not answered'} />
+            <strong>Your Answer:</strong> <MathRenderer content={q[`option${answers[i]}`] || 'Not answered'} />
           </Typography>
           <Typography>
-            <strong>Correct Answer:</strong>{' '}
-            <MathRenderer content={q[`option${q.correctOption}`]} />
+            <strong>Correct Answer:</strong> <MathRenderer content={q[`option${q.correctOption}`]} />
           </Typography>
         </Stack>
       ))}
@@ -47,4 +45,5 @@ export default function ResultPage() {
     </>
   );
 }
+
 
