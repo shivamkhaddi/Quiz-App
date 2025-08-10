@@ -1,5 +1,6 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useEffect, useState } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import QuizCard from '@/components/QuizCard';
@@ -14,9 +15,9 @@ import {
   Alert,
 } from '@mui/material';
 
-const TOTAL_TIME = 60; // total quiz time in seconds
+const TOTAL_TIME = 60;
 
-export default function QuizPage() {
+function QuizPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const difficulty = searchParams.get('difficulty');
@@ -28,7 +29,6 @@ export default function QuizPage() {
   const [timeLeft, setTimeLeft] = useState(TOTAL_TIME);
   const [timerExpired, setTimerExpired] = useState(false);
 
-  // Load and filter questions
   useEffect(() => {
     const loadQuestions = async () => {
       try {
@@ -53,7 +53,6 @@ export default function QuizPage() {
     loadQuestions();
   }, [difficulty]);
 
-  // Timer countdown
   useEffect(() => {
     if (loading || questions.length === 0 || timerExpired) return;
 
@@ -71,7 +70,6 @@ export default function QuizPage() {
     return () => clearInterval(timer);
   }, [loading, questions, timerExpired]);
 
-  // Auto-submit after timer ends
   useEffect(() => {
     if (timerExpired) {
       const encodedQuestions = encodeURIComponent(JSON.stringify(questions));
@@ -164,5 +162,14 @@ export default function QuizPage() {
         )}
       </Stack>
     </Stack>
+  );
+}
+
+// ⬇️ Wrap in Suspense for useSearchParams() support
+export default function QuizPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <QuizPageContent />
+    </Suspense>
   );
 }
