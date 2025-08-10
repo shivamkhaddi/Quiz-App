@@ -1,6 +1,5 @@
 'use client';
 
-
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Typography, Stack, Button } from '@mui/material';
 import MathRenderer from '@/components/MathRenderer';
@@ -46,5 +45,6 @@ export default function ResultPageContent() {
     </>
   );
 }
+
 
 
