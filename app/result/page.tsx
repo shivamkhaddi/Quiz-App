@@ -2,7 +2,6 @@ export const dynamic = 'force-dynamic';
 
 'use client';
 
-
 import { useSearchParams, useRouter } from 'next/navigation';
 import { Typography, Stack, Button } from '@mui/material';
 import MathRenderer from '@/components/MathRenderer';
