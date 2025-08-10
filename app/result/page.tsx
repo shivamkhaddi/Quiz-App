@@ -1,4 +1,3 @@
-export const dynamic = 'force-dynamic';
 'use client';
 
 import { useSearchParams, useRouter } from 'next/navigation';
@@ -30,19 +29,22 @@ export default function ResultPage() {
           <Typography variant="subtitle1">Question {i + 1} ({q.difficulty})</Typography>
           <MathRenderer content={q.question} />
           <Typography>
-            <strong>Your Answer:</strong> <MathRenderer content={q[`option${answers[i]}`] || 'Not answered'} />
+            <strong>Your Answer:</strong>{' '}
+            <MathRenderer content={q[`option${answers[i]}`] || 'Not answered'} />
           </Typography>
           <Typography>
-            <strong>Correct Answer:</strong> <MathRenderer content={q[`option${q.correctOption}`]} />
+            <strong>Correct Answer:</strong>{' '}
+            <MathRenderer content={q[`option${q.correctOption}`]} />
           </Typography>
         </Stack>
       ))}
 
       <Stack direction="row" mt={4}>
         <Button variant="contained" onClick={() => router.push('/')}>
-            Restart Quiz
+          Restart Quiz
         </Button>
       </Stack>
     </>
   );
 }
+
