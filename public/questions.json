@@ -1,0 +1,252 @@
+[
+  {
+    "question": "What is the derivative of x^2?",
+    "option1": "2x",
+    "option2": "x",
+    "option3": "x^2",
+    "option4": "2",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Evaluate \\int x\\, dx",
+    "option1": "x^2 + C",
+    "option2": "\\frac{x^2}{2} + C",
+    "option3": "\\ln x",
+    "option4": "x + C",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the limit of \\frac{\\sin x}{x} as x \\to 0?",
+    "option1": "0",
+    "option2": "1",
+    "option3": "\\infty",
+    "option4": "Undefined",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "If A = \\begin{bmatrix}1 & 2 \\\\ 3 & 4\\end{bmatrix}, what is \\det(A)?",
+    "option1": "2",
+    "option2": "-2",
+    "option3": "10",
+    "option4": "-10",
+    "correctOption": 2,
+    "marks": 3,
+    "difficulty": "Hard"
+  },
+  {
+    "question": "Solve: 2x + 3 = 7",
+    "option1": "x = 5",
+    "option2": "x = 2",
+    "option3": "x = 1",
+    "option4": "x = 4",
+    "correctOption": 2,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Simplify: (x^2)^3",
+    "option1": "x^5",
+    "option2": "x^6",
+    "option3": "x^9",
+    "option4": "x^8",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Find the value of \\log_{10} 1000",
+    "option1": "2",
+    "option2": "4",
+    "option3": "3",
+    "option4": "10",
+    "correctOption": 3,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Solve for x: x^2 = 49",
+    "option1": "7",
+    "option2": "±7",
+    "option3": "-7",
+    "option4": "0",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the domain of f(x) = \\frac{1}{x}?",
+    "option1": "x \\neq 0",
+    "option2": "x > 0",
+    "option3": "x < 0",
+    "option4": "All real numbers",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Find the derivative of \\sin x",
+    "option1": "\\cos x",
+    "option2": "-\\cos x",
+    "option3": "\\sin x",
+    "option4": "-\\sin x",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "If f(x) = x^2 + 3x + 2, find f(2)",
+    "option1": "12",
+    "option2": "8",
+    "option3": "10",
+    "option4": "6",
+    "correctOption": 3,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is \\frac{d}{dx} e^x?",
+    "option1": "e^x",
+    "option2": "xe^x",
+    "option3": "\\ln x",
+    "option4": "x^e",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the area under f(x) = x from 0 to 2?",
+    "option1": "4",
+    "option2": "2",
+    "option3": "1",
+    "option4": "2",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "If \\log_b(x) = y, then x equals:",
+    "option1": "b^y",
+    "option2": "y^b",
+    "option3": "\\ln y",
+    "option4": "b \\cdot y",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "What is \\int e^x dx?",
+    "option1": "e^x + C",
+    "option2": "xe^x + C",
+    "option3": "e^{x+1} + C",
+    "option4": "\\ln x + C",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Which is a solution of x^2 - 5x + 6 = 0?",
+    "option1": "x = 2 and x = 3",
+    "option2": "x = 1 and x = 6",
+    "option3": "x = -2 and x = -3",
+    "option4": "x = 5 and x = 1",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Find the limit: \\lim_{x \\to \\infty} \\frac{1}{x}",
+    "option1": "1",
+    "option2": "0",
+    "option3": "\\infty",
+    "option4": "Undefined",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Solve 3x - 7 = 2x + 5",
+    "option1": "x = -12",
+    "option2": "x = 12",
+    "option3": "x = 0",
+    "option4": "x = 5",
+    "correctOption": 4,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Evaluate: \\int 0\\, dx",
+    "option1": "1",
+    "option2": "x",
+    "option3": "C",
+    "option4": "0",
+    "correctOption": 3,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the slope of the line y = 3x + 2?",
+    "option1": "2",
+    "option2": "3",
+    "option3": "0",
+    "option4": "1",
+    "correctOption": 2,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Find the determinant: \\det \\begin{bmatrix}2 & 3 \\\\ 1 & 4\\end{bmatrix}",
+    "option1": "5",
+    "option2": "8",
+    "option3": "11",
+    "option4": "5",
+    "correctOption": 1,
+    "marks": 3,
+    "difficulty": "Medium"
+  },
+  {
+    "question": "Simplify: \\frac{x^3}{x}",
+    "option1": "x",
+    "option2": "x^2",
+    "option3": "x^4",
+    "option4": "1",
+    "correctOption": 2,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "Find the value of \\cos(0)",
+    "option1": "0",
+    "option2": "1",
+    "option3": "-1",
+    "option4": "Undefined",
+    "correctOption": 2,
+    "marks": 1,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "If f(x) = x^2, find f'(x)",
+    "option1": "x",
+    "option2": "2x",
+    "option3": "x^2",
+    "option4": "1",
+    "correctOption": 2,
+    "marks": 2,
+    "difficulty": "Easy"
+  },
+  {
+    "question": "What is the second derivative of x^3?",
+    "option1": "6x",
+    "option2": "3x^2",
+    "option3": "6",
+    "option4": "9x",
+    "correctOption": 1,
+    "marks": 2,
+    "difficulty": "Medium"
+  }
+]
