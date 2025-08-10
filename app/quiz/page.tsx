@@ -133,6 +133,7 @@ function QuizPageContent() {
         selectedOption={answers[current]}
         onSelect={handleAnswerSelect}
       />
+      
 
       <Stack direction="row" spacing={2} justifyContent="center">
         <Button
