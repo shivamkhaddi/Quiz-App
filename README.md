@@ -1,3 +1,11 @@
+Quiz-App
+Quiz App built using next js and material UI.
+
+How it works?
+User starts with cover page, step 1: clicks Start Quiz Button step 2: selects difficulty step 3: you will get one question at a time, can move forward and backward, meanwhile there is a timer for whole test, if you fail to submit in time, it will submit itself step 4: on clicking Submit Button, result in percentage,your score, and will also show your answer and correct answer step 5: get Restart Button on Result page, on clicking it will redirect to cover page.
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
